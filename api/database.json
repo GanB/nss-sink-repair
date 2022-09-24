@@ -1,13 +1,53 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    },
+    {
+      "id": 3,
+      "name": "Chris"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "4",
+      "plumberId": "1",
+      "completionDate": 1664045191815,
+      "id": 1
+    },
+    {
+      "requestId": "5",
+      "plumberId": "2",
+      "completionDate": 1664045302461,
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "description": "",
+      "address": "",
+      "budget": "",
+      "neededBy": "",
+      "id": 4
+    },
+    {
+      "description": "Water Leak",
+      "address": "123 main st",
+      "budget": 500,
+      "neededBy": "2022-09-23",
+      "id": 5
+    },
+    {
+      "description": "",
+      "address": "",
+      "budget": null,
+      "neededBy": "",
+      "id": 6
+    }
+  ]
 }
