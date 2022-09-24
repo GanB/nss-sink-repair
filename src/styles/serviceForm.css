@@ -6,7 +6,7 @@
   gap: 1rem;
   flex-wrap: wrap;
   /* background-color: #c3dee9; */
-  outline: 0.05rem solid #21295c;
+  /* outline: 0.05rem solid #21295c; */
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
@@ -50,6 +50,8 @@
   min-width: 50vw;
   border-radius: 10px;
   font-size: 20px;
+  border-color: #072750;
+  background-color: #bee9e8;
 }
 
 /* input[type="text"],
@@ -87,4 +89,27 @@ textarea:focus {
   font-size: 16px;
   margin-top: 25px;
   border-radius: 20px;
+  font-weight: bold;
+}
+
+.request__delete {
+  background-color: #a00909; /* Green */
+  border: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.plumbers {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.tableheader {
+  background-color: #072750; /* Green */
+  color: white;
+  font-weight: 900;
+  font-size: large;
 }

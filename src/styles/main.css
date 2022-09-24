@@ -11,7 +11,7 @@ textarea {
   font-family: "Comfortaa", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  background-color: #c3dee9;
+  background-color: #e6f1fa;
 }
 
 h1,
@@ -28,8 +28,18 @@ table,
 th,
 td {
   border: 1px solid black;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border-collapse: collapse;
   padding: 15px;
   margin: 10px;
+}
+
+.completedRequest {
+  background-color: #bee9e8;
+}
+
+.serviceHeader {
+  text-align: center;
+  font-size: x-large;
+  margin: 2rem;
 }

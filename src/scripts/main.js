@@ -1,13 +1,21 @@
-import { fetchRequests } from "./dataAccess.js";
+import { fetchRequests, fetchPlumbers } from "./dataAccess.js";
 import { SinkRepair } from "./SinkRepair.js";
 
 const mainContainer = document.querySelector("#container");
 
 const render = async () => {
-  //   await fetchRequests();
+  // await fetchRequests();
+  //   await fetchPlumbers();
   const sinkRepair = await SinkRepair();
-  console.log("SinkRepair()", sinkRepair);
   mainContainer.innerHTML = sinkRepair;
 };
 
 render();
+
+mainContainer.addEventListener("stateChanged", (customEvent) => {
+  render();
+});
+
+mainContainer.addEventListener("requestCompleted", (customEvent) => {
+  render();
+});
